@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: rgb(224, 220, 213);
+    color: rgb(163, 79, 0);
+}
+.fon{
+    mix-blend-mode: multiply;
+    width: 200;
+    height: 130;
+}
+
+a.urll{
+    color: rgb(255, 153, 0);
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 0 1px rgb(189, 91, 0), 
+    0 1px 1px rgb(189, 91, 0), 
+    -1px 0 1px rgb(189, 91, 0), 
+    0 -1px 1px rgb(189, 91, 0);
+}
+
+p{
+    margin: 10px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.shapka1{
+    background-color: rgb(81, 179, 162);
+}
+table.shapka3{
+    border-style: solid;
+    border-width: 20px;
+    border-color: rgba(81, 179, 163, 0);
+}
+.text1{
+    font-family: Bradley Hand, cursive;
+    font-size: 350%;
+    text-align: center;
+    text-shadow: 4px 0 4px #000, 
+0 4px 4px #000, 
+-4px 0 4px #000, 
+0 -4px 4px #000;
+padding-left: 30px;
+color: white;
+}
+
+.zagolovok{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: oblique;
+}
+.fio{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+table.content1 td{
+    vertical-align: top;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 100% ;
+}
+
+
+.regis{
+    flex-direction: column;
+    width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.inf{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: rgba(81, 179, 163, 0.555);
+    width: 800px;
+    height: auto;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin-right: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(81, 179, 163, 0.377);
+    border-radius: 1%;
+}
+
+input{
+  margin: 10px 0;  
+  padding: 5px;
+  border: unset;
+  border-bottom: 2px solid #a7a7a7;
+  outline: none;
+  cursor:text;
+  border-radius: 5%;
+  font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.msg{
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px solid #e43333;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: #ffffff;
+    border-radius: 5%;
+}
+
+button{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 5px;
+    background: #a7a7a7;
+    border: unset;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.logout{
+    color: #a7a7a7;
+}
