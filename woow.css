@@ -4,7 +4,7 @@
 }
 
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Gill Sans", sans-serif;
     font-weight: bold;
     background-color: rgb(224, 220, 213);
     color: rgb(163, 79, 0);
@@ -19,7 +19,7 @@ a.urll{
     color: rgb(255, 153, 0);
     font-weight: bold;
     text-decoration: none;
-    text-shadow: 1px 0 1px rgb(189, 91, 0), 
+    text-shadow: 1px 0 1px rgb(142, 63, 51);
     0 1px 1px rgb(189, 91, 0), 
     -1px 0 1px rgb(189, 91, 0), 
     0 -1px 1px rgb(189, 91, 0);
