@@ -3,9 +3,7 @@ session_start();
 if(isset($_SESSION['user'])){
     header('location: polz.php');
 }
-
 ?>
-
 <html>
 <head>
 <meta charset="utf8mb4_unicode_ci">
@@ -20,7 +18,6 @@ if(isset($_SESSION['user'])){
 <h1 class="text1">Груминг-студия "ЧистоПёс"</h1>
 </td></tr></table></center>
     </div class="shapka1">
-
     <table class="content1"><tr><td>
 <form class="regis" action="signin.php" method="post">
 <label>Логин</lable>
@@ -37,11 +34,8 @@ if(isset($_SESSION['user'])){
     ?>
 </form>
 <a class="FIO">СМИРНОВА С ИС18</a>
-
 </td><td>
-
 <br>
-
 </td><td>
   <div class="inf" >  
   <center> <a class="zagolovok">Наши выполненные заявки:</a><br><br><br>
